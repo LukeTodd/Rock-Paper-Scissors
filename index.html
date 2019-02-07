@@ -5,27 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>RockPaperScissors</title>
+  <title>Rock Paper Scissors</title>
 </head>
 
-<body>
-  <section>
-    <button onclick="play('Rock')">Rock</button>
-    <h1 id="rockbtn"></h1>
-    <button onclick="play('Paper')">Paper</button>
-    <h2 id="rockbtn"></h2>
-    <button onclick="play('Scissors')">Scissors</button>
-    <h3 id="rockbtn"></h3>
-  </section>
+<div class="bg-primary">
+
+  <body>
+    <header class="section">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Welcome to Rock Paper Scissors!!!</h1>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="col-6 pdGame">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center">
+              <button onclick="play('Rock')">Rock</button>
+              <img class="img-fluid" src="/assets/photos/rock-dude.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-4 text-center">
+              <button onclick="play('Paper')">Paper</button>
+              <img class="img-fluid" src="/assets/photos/paper-smiley.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-4 text-center">
+              <button onclick="play('Scissors')">Scissors</button>
+              <img class="img-fluid" src="/assets/photos/scissors-happy.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-6 text-center pdGame">
+          <h2>Computer Chooses...</h2>
+          <p id="compresult"></p>
+
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3 id="rockbtn"></h3>
+        </div>
+      </div>
+    </section>
 
 
 
 
 
-  <script src="apps/apps.js"></script>
-</body>
+
+    <script src="apps/apps.js"></script>
+  </body>
+</div>
 
 </html>
