@@ -29,16 +29,6 @@ function play(playerChoice) {
   document.getElementById('rockbtn').innerText = result
 }
 
-// //Display winner to screen
-// function display(winner) {
-//   let displayResult = ''
-//   if (winner == 'user') {
-//     displayResult = 'WIN'
-//   } else if (winner == 'computer') {
-//     displayResult = 'LOSE'
-//   } else {
-//     displayResult = 'DRAW'
-//   }
 
 
 
