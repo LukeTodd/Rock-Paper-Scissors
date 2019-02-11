@@ -1,9 +1,9 @@
 let things = {
   rock: {
-    img: '/assets/photos/rock-dude.jpg'
+    img: 'https://i.dlpng.com/static/png/337411_preview.png'
   },
   paper: {
-    img: '/assets/photos/paper-smiley.jpg'
+    img: 'http://pngimg.com/uploads/paper_plane/paper_plane_PNG3.png'
   },
   scissors: {
     img: '/assets/photos/scissors-happy.png'
